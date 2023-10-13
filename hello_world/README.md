@@ -1,0 +1,2 @@
+script 0: Écrivez un script qui exécute un fichier C via le préprocesseur et enregistrez le résultat dans un autre fichier.
+Le nom du fichier C sera enregistré dans la variable $CFILE. La sortie doit être enregistrée dans le fichier c
