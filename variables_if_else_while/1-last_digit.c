@@ -29,7 +29,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("Last digit of %d is %d is 0\n", n, lastnum);
+		printf("Last digit of %d is %d and is 0\n", n, lastnum);
 	}
 	return (0);
 }
