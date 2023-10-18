@@ -11,17 +11,28 @@
 
 int main(void)
 {
-	char digit;
+	putchar('0');
+	putchar('1');
+	putchar('2');
+	putchar('3');
+	putchar('4');
+	putchar('5');
+	putchar('6');
+	putchar('7');
+	putchar('8');
+	putchar('9');
+	putchar(',');
+	putchar(' ');
 
-	for (digit = '0'; digit <= '9'; digit++)
-	{
-		putchar(digit);
-	}
-
-	for (digit = 'a'; digit <= 'f'; digit++)
-	{
-		putchar(digit);
-	}
+	putchar('0');
+	putchar('1');
+	putchar('2');
+	putchar('3');
+	putchar('4');
+	putchar('5');
+	putchar('6');
+	putchar('7');
+	putchar('8');
 
 	putchar('\n');
 
