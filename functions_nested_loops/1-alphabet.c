@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - Entry point
+* print_alphabet - imprime l'alphabet de a à z en minuscule
 *
 * Description: 'the program's description'
 *
@@ -13,7 +13,7 @@ void print_alphabet(void)
 {
 	char letter;
 
-	for (letter = 'a';letter <= 'z'; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		_putchar(letter);
 	}
