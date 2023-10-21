@@ -7,6 +7,7 @@
  *
  * Return: La valeur de la dernière chiffre
  */
+
 int print_last_digit(int n)
 {
 	int last_digit;
