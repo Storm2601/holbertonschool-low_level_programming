@@ -5,7 +5,7 @@
  *
  * @n: Le nombre dont vous voulez imprimer la dernière chiffre
  *
- * Return: La valeur de la dernière chiffre
+ * Return: La valeur du dernier chiffre
  */
 
 int print_last_digit(int n)
