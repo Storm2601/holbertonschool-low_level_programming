@@ -1,27 +1,19 @@
 #include "main.h"
 
 /**
- * print_last_digit - Imprime la dernière chiffre d'un nombre
- *
- * @n: Le nombre dont vous voulez imprimer la dernière chiffre
- *
- * Return: La valeur du dernier chiffre
- */
+* print_last_digit - print the last digit of a number.
+* @num:number:
+*
+* Return: the value of the last digit
+**/
 
-int print_last_digit(int n)
+int print_last_digit(int num)
 {
-	int last_digit;
 
-	if (n < 0)
-	{
-		last_digit = -n % 10;
-	}
-	else
-	{
-		last_digit = n % 10;
-	}
+	int last_digit = num % 10;
 
-	_putchar('0' + last_digit);
-
+	if (last_digit < 0)
+		last_digit = -last_digit;
+	_putchar(last_digit + '0');
 	return (last_digit);
 }
