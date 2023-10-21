@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* print_last_digit - print the last digit of a number.
-* @num:number:
-*
-* Return: the value of the last digit
-**/
+ * print_last_digit - print the last digit of a number.
+ * @num:number:
+ *
+ * Return: the value of the last digit
+ **/
 
 int print_last_digit(int num)
 {
