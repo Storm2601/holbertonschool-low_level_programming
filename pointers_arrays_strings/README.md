@@ -1,0 +1,1 @@
+prompt 0 : fonction qui prend un pointeur sur un int comme paramètre et met à jour la valeur qu'il pointe à 98.
