@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _atoi - start of the program
+ * _atoi - début du programme
  *
- * @s: string to be extracted from
+ * @s: chaîne de caractères à extraire de
  *
- * Return: return the number from the string
+ * Return: renvoie le nombre à partir de la chaîne de caractères
  */
 
 int _atoi(char *s)
