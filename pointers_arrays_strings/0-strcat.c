@@ -1,25 +1,25 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <string.h>
 /**
- * _strcat - concatène deux chaînes de caractères
- * @dest: chaîne à laquelle concaténer
- * @src: chaîne à ajouter
- * Retour : le résultat (chaîne concaténée)
+ * *_strcat - une fonction qui concatène deux chaînes de caractères.
+ * @dest: la chaîne
+ * @src: la chaîne
+ * Return: valeur de la chaîne
  */
-
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int i = 0, j = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	while (dest[i] != '\0')
 	{
-	}
-
-	for (j = 0; src[j] != '\0'; j++)
-	{
-		dest[i] = src[j];
 		i++;
 	}
-	dest[i] = '\0';
-	return (dest); // Retourne la chaîne concaténée (dest)
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		j++;
+		i++;
+	}
+	return (dest);
 }
