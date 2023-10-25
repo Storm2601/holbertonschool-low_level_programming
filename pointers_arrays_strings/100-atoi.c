@@ -8,18 +8,19 @@
  */
 int _atoi(char *s)
 {
-	int d, n, len, f, digit;
+	int i, d, n, len, f, digit;
 
+	i = 0;
 	d = 0;
 	n = 0;
 	len = 0;
 	f = 0;
 	digit = 0;
 
-	for (len = 0; s[len] != '\0'; len++)
-		;
+	while (s[len] != '\0')
+		len++;
 
-	for (int i = 0; i < len && f == 0; i++)
+	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
 			++d;
@@ -35,10 +36,11 @@ int _atoi(char *s)
 				break;
 			f = 0;
 		}
+		i++;
 	}
 
 	if (f == 0)
-		return 0;
+		return (0);
 
-	return n;
+	return (n);
 }
