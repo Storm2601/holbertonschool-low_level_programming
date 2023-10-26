@@ -3,8 +3,8 @@
 #include <string.h>
 /**
  * *_strcat - une fonction qui concatène deux chaînes de caractères.
- * @dest: la chaîne
- * @src: la chaîne
+ * @dest: la chaîne de destination
+ * @src: la chaîne de la source
  * Return: valeur de la chaîne
  */
 char *_strcat(char *dest, char *src)
