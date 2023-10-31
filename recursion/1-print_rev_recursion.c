@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _print_rev_recursion -fonction qui inverse les caractères
+* _print_rev_recursion - fonction qui inverse les caractères
 * @s: pointeur vers la chaine
 * Return: Always 0 (Success)
 */
