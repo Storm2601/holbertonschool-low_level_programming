@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* malloc_checked - alloue de la mémoire
+* malloc_checked - allocates memory using
 * @b: quantité d'octets
 *
 * Return: pointeur sur la mémoire allouée
