@@ -1,0 +1,1 @@
+0 : Définir un nouveau type struct dog
