@@ -3,9 +3,9 @@
 
 /**
 * struct dog - les informations de base d'un chien
-* @name: Premier membre
-* @age: Deuxième membre
-* @owner: Troisième membre
+* @name: pointer vers le nom du chien
+* @age: age du chien
+* @owner: pointeur du propriétaire du chien
 *
 * Description: le nom du chien, son âge et le propriétaire
 */
