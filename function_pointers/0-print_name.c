@@ -4,7 +4,7 @@
 * print_name - imprimer le nom en utilisant le pointeur de la fonction
 * @name: chaîne de caractères à ajouter
 * @f: pointeur sur la fonction
-* Return: nothing
+* Return: rien
 **/
 void print_name(char *name, void (*f)(char *))
 {
@@ -13,3 +13,9 @@ void print_name(char *name, void (*f)(char *))
 
 	f(name);
 }
+
+/**
+* name == NULL: Vérifie si la variable name est nulle
+* ou
+* f == NULL: Vérifie si la fonction f est nulle.
+**/
