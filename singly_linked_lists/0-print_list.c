@@ -5,8 +5,9 @@
  * print_list - imprime tous les éléments d'une liste chaînée
  * @h: pointeur sur la liste list_t à imprimer
  *
- * Return: le nombre de nœuds
+ * Return: le nombre de noeuds
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t s = 0;
@@ -29,7 +30,7 @@ size_t print_list(const list_t *h)
  * (indicatif d'une chaîne vide ou nulle).
  * Sinon, passe à l'instruction suivante
  *
- * else printf("[%u] %s\n", h->len, h->str);: Si le champ str n'est pas nul,
+ * else printf("[u] s\n", h->len, h->str);: Si le champ str n'est pas nul,
  * imprime la longueur de la chaîne (h->len)
  * suivie de la chaîne elle-même (h->str)
  *
