@@ -31,9 +31,9 @@ size_t print_list(const list_t *h)
  * (indicatif d'une chaîne vide ou nulle).
  * Sinon, passe à l'instruction suivante
  *
- * else printf("[u] s\n", h->len, h->str);: Si le champ str n'est pas nul,
+ * else printf("[u] s\n", h->len, h->str);: Si le champ str n'est pas nulle,
  * imprime la longueur de la chaîne (h->len)
  * suivie de la chaîne elle-même (h->str)
  *
- * h = h->next déplce le pointer vers le prochain élément de la liste
+ * h = h->next déplace le pointer vers le prochain élément de la liste
  */
