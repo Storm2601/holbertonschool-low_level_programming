@@ -3,6 +3,7 @@
 
 /**
  * print_list - imprime tous les éléments d'une liste chaînée
+ *
  * @h: pointeur sur la liste list_t à imprimer
  *
  * Return: le nombre de noeuds
