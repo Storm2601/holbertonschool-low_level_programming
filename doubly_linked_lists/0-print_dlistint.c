@@ -1,13 +1,12 @@
 #include "lists.h"
 
 /**
- * print_dlistint - imprime tous les éléments d'une liste
- * dlistint_t list
+ * print_dlistint - print all the elements of a 
+ * liste dlistint_t list
  *
- * @h : tête de liste
- * Return : le nombre de noeuds
+ * @h: head of the list
+ * Return: the number of nodes
  */
-
 size_t print_dlistint(const dlistint_t *h)
 {
 	int count;
