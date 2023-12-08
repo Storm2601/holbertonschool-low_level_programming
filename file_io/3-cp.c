@@ -13,9 +13,9 @@ void close_file(int file)
 	}
 }
 /**
-* main - Copies the content of a file into another file
-* @argc: number of arguments
-* @argv: agrument vector
+* main - Copie le contenu d'un fichier dans un autre fichier
+* @argc: nombres d'arguments
+* @argv: vecteur d'arguments
 * Return: 0 on success
 */
 int main(int argc, char *argv[])
