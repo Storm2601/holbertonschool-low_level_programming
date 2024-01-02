@@ -1,21 +1,14 @@
 #include "main.h"
-
 /**
  * _atoi - convertit une chaîne de caractères en un entier.
  * @s: chaîne de caractères à convertir.
- *
  * Return: int converti à partir de la chaîne
  */
 int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
 
-	i = 0;
-	d = 0;
-	n = 0;
-	len = 0;
-	f = 0;
-	digit = 0;
+	i = 0; d = 0; n = 0; len = 0; f = 0; digit = 0;
 
 	while (s[len] != '\0')
 		len++;
