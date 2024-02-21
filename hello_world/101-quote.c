@@ -5,7 +5,7 @@
 * main - prints exactly and that piece of art is useful
 * followed by a new line
 *
-* Return:  1 on success. Error code otherwise
+* Return: 1 on success
 */
 
 int main(void)
