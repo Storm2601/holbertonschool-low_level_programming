@@ -3,12 +3,15 @@
 #include <time.h>
 
 /**
- * main - assign a random number to the variable n and
- * prints if the last number of nthe last number of n is greater than 5,
- * equals to 0 or less than 6
- * Return: Prints if the last number of n is greater than 5,
- * equals to 0 or less than 6 and not equal to 6
- */
+* main - assign a random number to the variable n and
+* prints if the last number of nthe last number of n is greater than 5,
+* equals to 0 or less than 6
+*
+* Description: displays the last digit of the number stored in the variable
+*
+* Return: Prints if the last number of n is greater than 5,
+* equals to 0 or less than 6 and not equal to 6
+*/
 
 int main(void)
 {
