@@ -2,7 +2,7 @@
 
 /**
 * main - prints the alphabet except q and e
-* 
+*
 * Return: 0
 */
 
