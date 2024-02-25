@@ -1,26 +1,26 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <string.h>
+#include <stdio.h>
 
 /**
-* main - assign a random number to the variable n and
-* prints if the last number of nthe last number of n is greater than 5,
-* equals to 0 or less than 6
+* main - Entry point
 *
-* Description: displays the last digit of the number stored in the variable
+* Description: affiche le dernier chiffre du nombre stocké dans la variable
 *
-* Return: Prints if the last number of n is greater than 5,
-* equals to 0 or less than 6 and not equal to 6
+* Return: si chiffre le chiffre est plus petit que 6
+* ou plus grand 5 ou egale 0 (Success)
 */
 
 int main(void)
 {
-	int n, last_digit;
+	int n;
+	int last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	scanf("%d", &n);
 	last_digit = n % 10;
+
 	if (last_digit > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
@@ -31,9 +31,9 @@ int main(void)
 	}
 	else if (last_digit < 6 && last_digit != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n",
-		       n, last_digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
 	}
+
 	return (0);
 }
 
