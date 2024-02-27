@@ -2,15 +2,15 @@
 #define MAIN_H
 
 int _putchar(char c);
-Prototype: int _isupper(int c);
-Prototype: int _isdigit(int c);
-Prototype: int mul(int a, int b);
-Prototype: void print_numbers(void);
-Prototype: void print_most_numbers(void);
-Prototype: void more_numbers(void);
-Prototype: void print_line(int n);
-Prototype: void print_diagonal(int n);
-Prototype: void print_square(int size);
-Prototype: void print_triangle(int size);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
 
 #endif
